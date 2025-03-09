@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import "./index.css"
 export default function TaskTracker() {
   const [tasks, setTasks] = useState([]);
   const [taskName, setTaskName] = useState("");
@@ -58,3 +58,6 @@ export default function TaskTracker() {
     </div>
   );
 }
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<TaskTracker />);
+
