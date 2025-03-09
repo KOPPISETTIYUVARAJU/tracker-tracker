@@ -3,8 +3,6 @@ Objective:
 Your task is to develop a Task Tracker App using ReactJS. This app will allow users to add tasks, delete tasks, and mark tasks as completed. The interface should be intuitive, interactive, and responsive.
 
 Output:
-
-
 Requirements:
 Core Features:
 Add Task: Users should be able to enter a task name and add it to the task list.
